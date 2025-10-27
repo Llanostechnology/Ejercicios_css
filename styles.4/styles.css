@@ -1,0 +1,196 @@
+h1.cambio{
+    color: blue;
+
+    font-size: 10em;
+}
+p:nth-child(2){
+    color: red;     
+
+
+    font-size: 20px;
+}
+
+/*referencia por pseudo clase */
+/*:nth-child(número) selecciona el elemento que es el enésimo hijo de su padre*/
+/*:nth-last-child(número) selecciona el elemento que es el enésimo hijo de su padre, pero contando desde el final*/
+/*:first-child selecciona el primer hijo de su padre*/
+/*:last-child selecciona el último hijo de su padre*/
+/*nth-of-type(número) selecciona el enésimo hijo de su padre, pero solo contando los elementos del mismo tipo*/
+/*:nth-last-of-type(número) selecciona el enésimo hijo de su padre, pero contando desde el final y solo los elementos del mismo tipo*/
+/*:first-of-type selecciona el primer hijo de su padre, pero solo contando los elementos del mismo tipo*/
+/*:last-of-type selecciona el último hijo de su padre, pero solo contando los elementos del mismo tipo*/    
+/*.empty selecciona los elementos que no tienen hijos (elementos vacíos)*/
+
+/*Propiedades*/
+/*margin-top, permite definir el margen superior de un elemento*/
+/*p{ margin-top: 50px;
+}*/
+/*margin-bottom, permite definir el margen inferior de un elemento*/
+/*p{ margin-bottom: 50px;
+}*/
+/*margin-right, permite definir el margen derecho de un elemento*/
+/*p{ margin-right: 50px;
+}*/     
+/*margin-left, permite definir el margen izquierdo de un elemento*/
+/*p{ margin-left: 50px;     
+}*/
+/*padding-top, permite definir el relleno superior de un elemento*/
+/*p{ padding-top: 50px;
+}*/     
+/*padding-right, permite definir el relleno derecho de un elemento*/
+/*p{ padding-right: 50px;   
+}*/     
+/*padding-bottom, permite definir el relleno inferior de un elemento*/      
+/*p{ padding-bottom: 50px; 
+}*/                         
+/*padding-left, permite definir el relleno izquierdo de un elemento*/
+/*p{ padding-left: 50px;   
+}*/
+/*border-top-width, permite definir el grosor del borde superior de un elemento*/
+/*p{ border-top-width: 10px;
+}*/ 
+/*border-right-width, permite definir el grosor del borde derecho de un elemento*/
+/*p{ border-right-width: 10px;
+}*/
+/*border-bottom-width, permite definir el grosor del borde inferior de un elemento*/
+/*p{ border-bottom-width: 10px;
+}*/
+/*border-left-width, permite definir el grosor del borde izquierdo de un elemento*/
+/*p{ border-left-width: 10px;
+}*/ 
+/*border-top-color, permite definir el color del borde superior de un elemento*/
+/*p{ border-top-color: red;
+}*/
+/*border-right-color, permite definir el color del borde derecho de un elemento*/
+/*p{ border-right-color: red;
+}*/ 
+/*border-bottom-color, permite definir el color del borde inferior de un elemento*/
+/*p{ border-bottom-color: red;
+}*/
+/*border-left-color, permite definir el color del borde izquierdo de un elemento*/
+/*p{ border-left-color: red;
+}*/
+/*border-top-style, permite definir el estilo del borde superior de un elemento*/
+/*p{ border-top-style: dashed;  
+}*/
+/*border-right-style, permite definir el estilo del borde derecho de un elemento*/
+/*p{ border-right-style: dashed;  
+}*/
+/*border-bottom-style, permite definir el estilo del borde inferior de un elemento*/
+/*p{ border-bottom-style: dashed;  
+}*/ 
+/*border-left-style, permite definir el estilo del borde izquierdo de un elemento*/
+/*p{ border-left-style: dashed;  
+}*/
+/*border-radius, permite definir bordes redondeados en un elemento*/
+/*#contenedor{
+    border-radius: 15px;
+}*/ 
+/*width, permite definir el ancho de un elemento*/
+/*#contenedor{
+    width: 600px;
+}*/ 
+/*height, permite definir la altura de un elemento*/
+/*#contenedor{      
+    height: 300px;
+}*/ 
+/*min-width, permite definir el ancho mínimo de un elemento*/
+/*#contenedor{
+    min-width: 300px;
+}*/ 
+/*min-height, permite definir la altura mínima de un elemento*/
+/*#contenedor{
+    min-height: 150px;
+}*/     
+/*max-width, permite definir el ancho máximo de un elemento*/
+/*#contenedor{
+    max-width: 500px;
+}*/     
+/*max-height, permite definir la altura máxima de un elemento*/
+/*#contenedor{      
+    max-height: 250px;
+}*/     
+/*line-height, permite definir la altura de línea de un elemento*/
+/*.texto{   
+    line-height: 50px;
+}*/         
+/*vertical-align, permite definir la alineación vertical de un elemento inline o de una celda de tabla*/
+/*.texto{   
+    vertical-align: middle;
+}*/ 
+/*color, permite definir el color del texto de un elemento*/
+/*.texto{   
+    color: blue;
+}*/ 
+/*background-color, permite definir el color de fondo de un elemento*/
+/*#contenedor{   
+    background-color: lightgray;
+}*/ 
+/*background-image, permite definir una imagen de fondo para un elemento*/
+/*#contenedor{   
+    background-image: url('fondo.jpg');
+}*/ 
+/*background-repeat, permite definir si una imagen de fondo se repite o no*/
+/*#contenedor{   
+    background-repeat: no-repeat;
+}*/     
+/*background-position, permite definir la posición de una imagen de fondo dentro de un elemento*/
+/*#contenedor{   
+    background-position: center;
+}*/ 
+/*text-align, permite definir la alineación horizontal del texto dentro de un elemento*/
+/*#contenedor{   
+    text-align: right;
+}*/ 
+/*text-decoration, permite definir decoraciones para el texto de un elemento*/
+/*.texto{   
+    text-decoration: underline;
+}*/ 
+/*letter-spacing, permite definir el espaciado entre letras en el texto de un elemento*/
+/*.texto{   
+    letter-spacing: 5px;
+}*/ 
+/*word-spacing, permite definir el espaciado entre palabras en el texto de un elemento*/
+/*.texto{   
+    word-spacing: 10px;
+}*/ 
+/*text-transform, permite definir la transformación del texto en un elemento*/
+/*.texto{   
+    text-transform: uppercase;
+}*/ 
+/*font-weight, permite definir el grosor del texto en un elemento*/
+/*.texto{   
+    font-weight: bold;
+}*/
+/*font-style, permite definir el estilo del texto en un elemento*/
+/*.texto{   
+    font-style: italic;
+}*/     
+/*font-size, permite definir el tamaño del texto en un elemento*/
+/*.texto{   
+    font-size: 40px;
+}*/ 
+/*font-family, permite definir la familia tipográfica del texto en un elemento*/
+/*.texto{   
+    font-family: 'Courier New', monospace;
+}*/ 
+/*font-variant, permite definir variantes tipográficas para el texto en un elemento*/
+/*.texto{   
+    font-variant: small-caps;
+}*/ 
+/*text-shadow, permite definir una sombra para el texto en un elemento*/
+/*.texto{   
+    text-shadow: 2px 2px 5px gray;
+}*/ 
+/*opacity, permite definir la opacidad de un elemento*/
+/*#contenedor{   
+    opacity: 0.5;
+}*/     
+/*float, permite definir el comportamiento de flotación de un elemento*/
+/*#contenedor{   
+    float: left;
+}*/             
+/*clear, permite controlar el comportamiento de los elementos flotantes*/
+/*#contenedor{   
+    clear: both;
+}*/     
