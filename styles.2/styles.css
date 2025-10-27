@@ -1,0 +1,28 @@
+/* Selectores de atributos */
+h1.cambio{
+    color: blue;
+
+    font-size: 10rem;
+}
+/*selector por atributo*/
+/*seletor que comienza con el valor rojo en el atributo name*/
+p[name^="rojo"]{
+    color: red;
+}
+/*selector por atributo*/
+/*seletor que termina con el valor grande en el atributo name*/
+p[name$="grande"]{
+    color: blue;
+}
+/*selector por atributo*/
+/*seletor nia en cualquier parte del valor del atributo name*/
+p[name*="nia"]{
+    color: rgb(19, 0, 128);
+    
+}
+/*reset de margenes y padding*/
+*{
+    margin: 5px;
+    padding: 5px;
+   
+}

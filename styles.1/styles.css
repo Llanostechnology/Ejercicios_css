@@ -1,0 +1,46 @@
+/*selector por etiqueta*/
+p{
+color: brown;/** color de texto marron **/
+
+font-size: 2rem;/** tamaño de letra 2 rem **/
+}
+/*selector por id*/
+#miElemento{
+    color:#00ff4c;/** color de texto verde **/
+    font-size: 1.5rem;/** tamaño de letra 1.5 rem **/
+}
+/*selector por clase*/
+.miClase{
+    color:#ff5733;/** color de texto naranja **/
+    font-size: 2.5rem;/** tamaño de letra 2.5 rem **/   
+}
+/*selector compuesto con <a>*/
+p a{
+    color:#3357ff;/** color de texto azul **/
+    font-size:2rem;/** tamaño de letra 2rem **/ 
+} 
+/*selector compuesto con classe*/
+h3.miClase
+{
+    color:#ff33a6;/** color de texto rosa **/
+    font-size:3rem;/** tamaño de letra 3rem **/ 
+}
+
+/** explicación de la sintaxis de CSS
+/*p- es la etiqueta de parrafo a la que vamos agregar los estilos, se le conoce como selector
+{-la llave es  la aperutura de definición de los estilos
+color- es la propiedad a la que le vamos a asignar un valor
+:- es el signo igual que separa la propiedad del valor
+brown- es el valor que le vamos a asignar a la propiedad
+; - es el signo que indica el final de la declaración de la propieda
+}- es la llave que cierra la definición de los estilos
+**/
+/*referencias es la relación entre selectores, propiedades y valores en CSS
+tenemos tres clases:
+- por etiqueta
+- por un id
+- por una clase  
+Referencia por etiquetas: en este caso se selecciona la etiqueta p y se le asignan los estilos que van entre las llaves
+Referencia por id: se selecciona un elemento HTML mediante su atributo id precedido por el símbolo #. Ejemplo: #miElemento { color: blue; }
+Referencia por clase: se selecciona uno o más elementos HTML mediante su atributo class precedido por el símbolo .. Ejemplo: .miClase { font-size: 16px; }
+**/
