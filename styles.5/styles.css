@@ -1,0 +1,24 @@
+body{
+    padding: 0px;
+
+    margin: 0px;
+}
+
+#contenedor{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #312d2d;
+    width: 400px;
+    margin: 5px;
+    /*boder-radius, permite definir bordes redondeados en un elemento*/
+    border-radius: 30px;
+    /*permite definir  cada borde con un radio diferente*/
+    /*border-radius:10px 20px 30px 40px;*/
+    
+}
+
+.texto{
+    font-size: 30px;
+}
+
+
